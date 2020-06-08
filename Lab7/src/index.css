@@ -1,0 +1,11 @@
+.gridContainer{
+    width: 'fit-content';
+    height: 'fit-content';
+    display: 'grid';
+    grid-auto-flow: 'column';
+}
+
+body{
+    background-image: url("../dist/imgs/grass.png");
+}
+

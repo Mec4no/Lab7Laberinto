@@ -1,0 +1,39 @@
+{
+  "name": "lab-7",
+  "version": "1.0.0",
+  "description": "Lab7",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/*",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack"
+  },
+  "author": "Angel Martin Ortega Yung",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier-eslint": "^9.0.1",
+    "url-loader": "^4.1.0"
+  }
+}
